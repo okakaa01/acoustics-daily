@@ -2,10 +2,11 @@
 % Simple waveform plot
 
 % WAVファイル読み込み
-[signal, fs] = audioread("loop100302.wav");
+[sig, fs] = audioread("loop100302.wav");
 
 % 時間軸を作成
-t = (0:length(signal)-1) / fs;
+L = length(sig)
+t = (0:L-1) / fs;
 
 % モノラル化（ステレオの場合）
 if size(signal, 2) > 1
