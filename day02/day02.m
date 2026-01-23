@@ -15,8 +15,8 @@ if size(x, 2) > 1
     x = x(:, 1);
 end
 
-N = length(x);
-t = (0:N-1) / fs;
+L = length(x);
+t = (0:L-1) / fs;
 
 % === Frame settings ===
 frame_ms = 25;          % 25 ms frame
