@@ -18,6 +18,8 @@ end
 L = length(x);
 t = (0:L-1) / fs;
 
+kokomaderikai
+
 % === Frame settings ===
 frame_ms = 25;          % 25 ms frame
 hop_ms   = 10;          % 10 ms hop
