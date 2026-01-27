@@ -1,3 +1,4 @@
+% RMSなど勉強中
 % day02_features.m
 % Day2: Compute RMS and ZCR (Zero Crossing Rate) and visualize them.
 % Place this script in a folder with "example.wav".
@@ -22,7 +23,7 @@ t = (0:L-1) / fs;
 frame_ms = 25;          % 25 ms frame
 hop_ms   = 10;          % 10 ms hop
 
-％ここまでなんとなく理解
+％ここまでなんとなく理解 
 frameLen = round(frame_ms/1000 * fs);
 hopLen   = round(hop_ms/1000   * fs);
 
